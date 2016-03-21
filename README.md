@@ -1,5 +1,7 @@
 # Text Converter
 
+[Use it.](http://andreicommunication.github.io/text-converter/)
+
 This is your run of the mill text converter. Enter some text in the top textbox,
 press the button, and have the text be converted according to the checkbox options
 you set above. If someone thinks they have a worthwhile feature they want to add
