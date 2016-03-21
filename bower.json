@@ -1,0 +1,19 @@
+{
+  "name": "0040-escaper",
+  "authors": [
+    "Andrei Borissenko <Andrei.Borissenko@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/components",
+    "test",
+    "tests"
+  ]
+}

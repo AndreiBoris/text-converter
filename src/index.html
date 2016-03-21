@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="UNKNOWN">
+    <meta name="author" content="UNKNOWN">
+    <title>UNKNOWN</title>
+    <link href="dist/styles/print.min.css" rel="stylesheet" media="print">
+    <link href="dist/styles/main.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="flex">
+      <h3 class="title">Input here</h3>
+    <label for="apos">Escape Apostrophes</label>
+    <input type="checkbox" name="apos" data-bind="checked: convertApostrophes">
+    <label for="newline">Escape Newlines</label>
+    <input type="checkbox" name="newline" data-bind="checked: convertNewlines">
+    </div>
+    <textarea id="input" rows="20" cols="80" data-bind="value: input">
+</textarea>
+<br>
+    <h3 class="inline">Output</h3>
+    <button data-bind="click: convert">Escape</button>
+    <br>
+    <textarea id="output" rows="20" cols="80" data-bind="value: output"></textarea>
+    <script type="text/javascript" src="dist/perm/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+    <script type="text/javascript" src="dist/scripts/main.min.js"></script>
+  </body>
+
+</html>

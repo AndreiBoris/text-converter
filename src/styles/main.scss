@@ -1,0 +1,27 @@
+/* Imports */
+
+@import 'imports/reset';
+
+h3 {
+    font-size: 3rem;
+}
+
+.title {
+    margin-right: 1em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.inline {
+    display: inline;
+}
+
+button {
+    height: 2.5rem;
+    font-size: 2rem;
+    margin-left: 18rem;
+    display: inline;
+}
