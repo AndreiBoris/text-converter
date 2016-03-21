@@ -12,3 +12,7 @@ yourself and send a pull request, I'd love that.
 
 * Escape apostrophes (`'` becomes `\'`)
 * Escape newlines (`NEWLINE` becomes `\n`)
+
+#### Credit
+
+Favicon used is made by [Daniel Bruce](http://www.flaticon.com/authors/daniel-bruce) at [www.flaticon.com](http://www.flaticon.com/)
